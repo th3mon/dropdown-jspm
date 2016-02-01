@@ -1,0 +1,20 @@
+{
+  "name": "dropdown-jspm",
+  "version": "1.0.0",
+  "scripts": {
+    "serveit": "browser-sync start --files 'src/**/*.html, src/**/*.css, src/**/*.js' --server 'src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3mon/dropdown-jspm.git"
+  },
+  "author": "Przemyslaw Szelenberger <p.szelenberger@gmail.com> (http://github.com/th3mon)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3mon/dropdown-jspm/issues"
+  },
+  "homepage": "https://github.com/th3mon/dropdown-jspm#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1"
+  }
+}
