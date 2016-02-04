@@ -38,5 +38,7 @@
     "path-browserify": "npm:path-browserify@0.0.0"
   },
   "github:jspm/nodelibs-fs@0.1.2": {},
-  "github:systemjs/plugin-json@0.1.0": {}
+  "github:systemjs/plugin-json@0.1.0": {},
+  "github:systemjs/plugin-text@0.0.4": {},
+  "github:systemjs/plugin-css@0.1.20": {}
 }
