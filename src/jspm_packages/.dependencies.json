@@ -45,5 +45,5 @@
     "jquery": "github:components/jquery"
   },
   "github:components/jquery@2.2.0": {},
-  "github:kendo-labs/bower-kendo-ui@2016.1.125": {}
+  "npm:jquery@2.2.0": {}
 }
