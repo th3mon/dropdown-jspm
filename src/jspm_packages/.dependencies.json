@@ -40,5 +40,10 @@
   "github:jspm/nodelibs-fs@0.1.2": {},
   "github:systemjs/plugin-json@0.1.0": {},
   "github:systemjs/plugin-text@0.0.4": {},
-  "github:systemjs/plugin-css@0.1.20": {}
+  "github:systemjs/plugin-css@0.1.20": {},
+  "github:twbs/bootstrap@3.3.6": {
+    "jquery": "github:components/jquery"
+  },
+  "github:components/jquery@2.2.0": {},
+  "github:kendo-labs/bower-kendo-ui@2016.1.125": {}
 }
