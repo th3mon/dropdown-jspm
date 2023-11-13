@@ -1,0 +1,715 @@
+repo_name: th3mon/dropdown-jspm
+report_id: 32c6338e956ff9bcc3575fc3644034aa
+repo_type: Public
+timestamp: '2023-11-09T12:43:06+00:00'
+requested_by: th3mon
+provider: github
+branch: master
+detected_tools_count: 53
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: LiveScript
+  description: A language which compiles to JavaScript
+  website_url: http://livescript.net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/5404/New_Project.jpg
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JSPM
+  description: Frictionless browser package management
+  website_url: http://jspm.io/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2869/SD4SNJm8_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Przemyslaw Szelenberger
+  last_updated_on: 2016-02-01 13:41:20.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 1.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: src/jspm_packages/npm/assert@1.3.0/package.json
+  detection_source: src/jspm_packages/npm/process@0.11.2/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: QUnit
+  description: A JavaScript Unit Testing framework
+  website_url: http://qunitjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: src/jspm_packages/npm/util@0.10.3/.travis.yml
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Zuul
+  description: An edge service that provides dynamic routing, monitoring, resiliency,
+    security, and more
+  website_url: https://github.com/Netflix/zuul
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/2932/zuul.png
+  detection_source: src/jspm_packages/npm/util@0.10.3/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: src/jspm_packages/npm/util@0.10.3/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 3.10.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: src/jspm_packages/npm/util@0.10.3/package.json
+  last_updated_by: Przemyslaw Szelenberger
+  last_updated_on: 2016-02-01 13:41:20.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: assert
+  description: The assert module from Node.js, for the browser
+  package_url: https://www.npmjs.com/assert
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: src/jspm_packages/github/jspm/nodelibs-assert@0.1.0/package.json
+  detection_source: src/jspm_packages/github/jspm/nodelibs-assert@0.1.0/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: babylon
+  description: A JavaScript parser
+  package_url: https://www.npmjs.com/babylon
+  version: 5.8.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16596/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: bluebird
+  description: Full featured Promises/A+ implementation with exceptionally good performance
+  package_url: https://www.npmjs.com/bluebird
+  version: 2.9.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-07 21:47:07.000000000 Z
+- name: convert-source-map
+  description: Converts a source-map from/to different formats and allows adding/changing
+    properties
+  package_url: https://www.npmjs.com/convert-source-map
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17172/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-runtime@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: detect-indent
+  description: Detect the indentation of code
+  package_url: https://www.npmjs.com/detect-indent
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18494/default_cede69e31c17bc0ea44d5859768333df0dd3c641.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: esutils
+  description: Utility box for ECMAScript language tools
+  package_url: https://www.npmjs.com/esutils
+  version: 2.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18752/default_7e40392bb89e66abf2d9bb2cf29912f77369c119.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: fs-readdir-recursive
+  description: Recursively read a directory
+  package_url: https://www.npmjs.com/fs-readdir-recursive
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18673/default_7526add6f0f28bbac10f46039a83f485dde0db76.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: grunt-karma
+  description: Grunt plugin for karma test runner
+  package_url: https://www.npmjs.com/grunt-karma
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: inherits
+  description: Browser-friendly inheritance fully compatible with standard node.js
+    inherits
+  package_url: https://www.npmjs.com/inherits
+  version: 2.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16376/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: src/jspm_packages/npm/util@0.10.3/package.json
+  detection_source: src/jspm_packages/npm/util@0.10.3/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: json5
+  description: JSON for humans
+  package_url: https://www.npmjs.com/json5
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in JSON5 via Parse Method
+    cve_id: CVE-2022-46175
+    cve_url: https://github.com/advisories/GHSA-9c47-m6qq-7p4h
+    detected_date: Dec 29
+    severity: high
+    first_patched: 1.0.2
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: karma-ie-launcher
+  description: A Karma plugin. Launcher for Internet Explorer
+  package_url: https://www.npmjs.com/karma-ie-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16553/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: karma-qunit
+  description: A Karma plugin. Adapter for QUnit testing framework
+  package_url: https://www.npmjs.com/karma-qunit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17515/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 2.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+  - name: Regular Expression Denial of Service in minimatch
+    cve_id: CVE-2016-10540
+    cve_url: https://github.com/advisories/GHSA-hxm2-r34f-qmc5
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.0.2
+- name: path-exists
+  description: Check if a path exists
+  package_url: https://www.npmjs.com/path-exists
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16765/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: path-is-absolute
+  description: Node.js 0.12 path.isAbsolute
+  package_url: https://www.npmjs.com/path-is-absolute
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17605/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source: src/jspm_packages/github/jspm/nodelibs-process@0.1.2/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: promises-aplus-tests
+  description: Compliance test suite for Promises/A+
+  package_url: https://www.npmjs.com/promises-aplus-tests
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18159/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source: src/jspm_packages/npm/core-js@1.2.6/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: regenerator
+  description: Source transformer enabling ECMAScript 6 generator functions
+  package_url: https://www.npmjs.com/regenerator
+  version: 0.8.40
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18310/default_5d81a3d62d30d96d8e8b7beb4d86bdb3c863b433.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-runtime@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: resolve
+  description: Resolve like require.resolve
+  package_url: https://www.npmjs.com/resolve
+  version: 1.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: slash
+  description: Convert Windows backslash paths to slash paths
+  package_url: https://www.npmjs.com/slash
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16831/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: source-map
+  description: Generates and consumes source maps
+  package_url: https://www.npmjs.com/source-map
+  version: 0.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  detection_source: src/jspm_packages/npm/babel-core@5.8.35/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: tape
+  description: Tap-producing test harness for node and browsers
+  package_url: https://www.npmjs.com/tape
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: src/jspm_packages/npm/path-browserify@0.0.0/package.json
+  detection_source: src/jspm_packages/npm/path-browserify@0.0.0/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
+- name: util
+  description: Node.js's util module for all engines
+  package_url: https://www.npmjs.com/util
+  version: 0.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: src/jspm_packages/github/jspm/nodelibs-util@0.1.0/package.json
+  detection_source: src/jspm_packages/npm/assert@1.3.0/package.json
+  last_updated_by: Przemysław Szelenberger
+  last_updated_on: 2016-02-02 23:27:01.000000000 Z
